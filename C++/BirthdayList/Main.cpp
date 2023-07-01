@@ -61,12 +61,43 @@ int main()
 		string opnieuw;
 		getline(cin, opnieuw);
 
+		opnieuw[0] = tolower(opnieuw[0]);
+
 		if (opnieuw == "nee")
 		{
 			blijftvragen = false;
 		}
 	}
 
+	blijftvragen = true;
+	while (blijftvragen == true)
+	{
+		cout << "Van wie wil je de verjaardag weten?" << endl;
+		string naam;
+		getline(cin, naam);
 
-	
+		int welke = 0;
+
+		while ( welke < lijstje.size())
+		{
+			if (naam == lijstje[welke].Naam)
+			{
+				cout << naam << " is jarig op " << lijstje[welke].Datum << endl;
+			}
+
+			welke = welke + 1;
+		}
+
+		cout << "Wil je nog een verjaardag weten?" << endl;
+
+		string opnieuw;
+		getline(cin, opnieuw);
+
+		opnieuw[0] = tolower(opnieuw[0]);
+
+		if (opnieuw == "nee")
+		{
+			blijftvragen = false;
+		}
+	}
 }
