@@ -1,0 +1,26 @@
+h1 {
+    color: coral;
+    /* background-color: rgb(135, 70, 240);  */
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    
+}
+
+boldElement {
+    font-size: large;
+    color: crimson;
+}
+
+NieuweTitel {
+    text-align: right;
+    border: 2px dotted Tomato;
+}
+
+.cooleKikker {
+    margin: auto;
+    width: 10%;
+    background-color: darkorange;
+}
