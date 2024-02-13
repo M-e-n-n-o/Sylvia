@@ -1,5 +1,5 @@
 # Sylvia
-Sylvia wordt pro is programmeren
+Sylvia wordt pro in programmeren
 
 # Wat we kunnen proberen
 - CodinGame
